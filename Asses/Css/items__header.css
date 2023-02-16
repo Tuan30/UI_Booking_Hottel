@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.clear{
+    clear: both;
+}
+
+.slider__commont{
+    margin-top: 88px;
+    position: relative;
+}
+
+.slider__commont img{
+    width: 100%;
+    display: block;
+}
+
+.slider__commont-items{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    align-items: flex-end;
+    display: flex;
+}
+
+.slider__commont-name{
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 20%;
+}
+
+.content__gallary{
+    margin-top: 64px;
+}
+
+.content__gallary-room{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallary__room-click{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.gallary__room-click li{
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 60px;
+    font-family: 'Fruktur', cursive;
+    border-bottom: 1px solid rgb(207, 191, 160);
+}
+
+.gallary__room-click li:hover{
+    color: rgb(207, 191, 160);
+}
+
+.gallary__room-img{
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.room__img-list{
+    width: 33.3333%;
+    float: left;
+    padding: 10px;
+}
+
+.room__img-list img{
+    width: 100%;  
+}
+/* ------------ */
+
+/* CHECK RATES */
+.rates__room{
+    margin-top: 64px;
+}
+
+.rates__booking{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.rates__booking-left{
+    width: 25%;
+}
+
+.rates__booking-room h2{
+    background-color: #023047;
+    color: #fff;
+    padding: 9px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.rates__booking-room input{
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+
+.rates__booking-room span{
+    width: 100%;
+}
+
+.rates__booking-righ{
+    width: 75%;
+}
+
+.rates__input label{
+    margin-left: 12px;
+}
+
+.rates__booking-headear{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 80px;
+    width: 100%;
+    padding: 25px;
+}
+
+.rates__booking-date input{
+    width: 250px;
+    font-size: 21px;
+    border: none;
+    color: #000;
+}
+
+.rates__booking-headear p{
+    font-size: 21px;
+    opacity: 0.8;
+}
+
+.rates__booking-btn{
+    margin-left: 40%;
+}
+
+.rates__booking-btn button{
+    width: 144px;
+    padding: 8px;
+    background-color: rgb(207, 191, 160);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.rates__booking-btn button:hover{
+    background-color: #023047;
+}
+
+.rates__booking-btn i{
+    margin-left: 8px;
+}
+
+.rates__room{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.rates__room-from{
+    float: right;
+    width: 33.333%;
+    padding: 12px;
+    margin-bottom: 22px;
+    position: relative;
+    
+}
+
+.rates__room-from img{
+    width: 100%;
+    display: block;
+}
+
+.rates__room-money{
+    padding: 8px 24px;
+    margin-top: -20px;
+    bottom: 184px;
+    margin-left: 75px;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    background-color: rgb(207, 191, 160);
+}
+
+.rates__room-items{
+    padding: 12px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.rates__room-items h2{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.rates__hover:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rates__room-items p{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgb(207, 191, 160);
+}
+
+.rates__room-icon{
+    text-align: center;
+    font-size: 12px;
+}
+
+.rates__room-icon i{
+    /* color: rgb(207, 191, 160); */
+    margin-left: 8px;
+    margin-right: 8px;
+}

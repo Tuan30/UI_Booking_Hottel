@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+#product__room-img{
+    opacity: 0.8;
+}
+
+.header__logo a{
+    color: #fff;
+}
+
+.header__logo a:hover{
+    color:rgb(207, 191, 160);
+}
+
+.product__slider-items{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    display: flex;
+    align-items:flex-end;
+}
+
+.product__slider-name{
+    bottom: 0;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 24%;
+    margin-bottom: 25px;
+}
+
+.content__products{
+    margin-top: 64px;
+}
+
+.products__check-room{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.products__check-left{
+    width: 70%;
+}
+
+.products__check-left img{
+    width: 100%;
+}
+
+.products__left-icon{
+    margin-top: 26px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 32px;
+}
+
+.products__left-icon i{
+    padding: 49px 64px;
+    max-width: 143px;
+    background-color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.products__left-about{
+    margin-top: 26px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.products__left-place{
+    margin-top: 24px;
+}
+
+.products__left-place li{
+    margin-top: 24px;
+    padding-bottom: 24px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.products__left-place li span{
+    float: right;
+    font-weight: 600;
+}
+
+.products__check-righ{
+    margin-left: 24px;
+    padding: 20px;
+    background-color: rgba(73, 1, 1, 0.761);
+    max-height: 250px;
+    width: 30%;
+}
+
+#products__date-items{
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+.products__right-money{
+    text-align: center;
+    margin-top: 42px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.products__righ-btn{
+    margin-top: 42px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(207, 191, 160);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.products__check-left #img{
+    position: relative;
+    max-height: 360px;
+}
+
+#gallert__place-items{
+    text-align: center;
+}
+
+.content__ralated{
+    margin-top: 64px;
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 64px;
+}
+
+.content__ralated-name{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fruktur', cursive;
+    padding-top: 40px;
+}
+
+#products__check-room{
+    display: inherit;
+}
+
+.ralated__room{
+    margin-top: 60px;
+}
+
+#products__img{
+    padding-left: 5%;
+}
+
+/* Products About */
+.content__product-about{
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.content__product-about-items{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.content__product-contact{
+    display: flex;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.content__about-left{
+    width: 35%;
+    text-align: center;
+    font-family: 400;
+    padding-top: 50px;
+}
+
+.content__about-right{
+    font-size: 18px;
+    width: 65%;
+    line-height: 1.8;
+}
+
+.content__produtcs-img{
+    margin-top: 46px;
+}
+
+.content__about-back{
+    margin-top: 66px;
+    position: relative;
+}
+
+.content__about-back img{
+    width: 100%;
+    display: block;
+}
+
+.content__about-book{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.content__about-back h2{
+    margin-top: 10%;
+    font-size: 60px;
+}
+
+.content__about-back p{
+    margin-top: 15px;
+}
+
+.content__about-back button{
+    margin-top: 25px;
+    padding: 12px 26px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(207, 191, 160);
+    color: #fff;   
+}
+
+.content__about-back button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(207, 191, 160);
+}

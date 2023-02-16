@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T & H Travel</title>
+
+    <link rel="stylesheet" href="/Asses/Css/style.css">
+
+    <link rel="stylesheet" href="/Asses/Css/products__room.css">
+
+    <link rel="stylesheet" href="/Asses/Css/items__header.css">
+
+    <link rel="stylesheet" href="/Asses/Css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main">
+        
+        <!-- Header -->
+        <div id="header" class="header">
+            <div class="header__logo">
+                <a href="/index.html"><i class="fas fa-umbrella-beach"></i>
+                T & H Travel</a>
+            </div>
+
+            <ul class="header__nav">
+                <li><a href="/index.html">Home</a></li>
+                <li>
+                    <a href="">Rooms & Suits</a>
+                    <ul class="header__subnav">
+                        <li><a href="/Asses/Items/Room__Girt.html">Room Grid</a></li>
+                        <li><a href="/Asses/Items/CheckRates.html">Room List</a></li>
+                    </ul>
+                </li>
+                <li><a href="/Asses/Items/Gallery.html">Gallery</a></li>
+                <li><a href="/Asses/Items/About.html">About</a></li>
+                <li><a href="/Asses/Items/Contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header__booking">
+                <button class="header__booking-btn">Book Now</button>
+            </div>
+
+            <div id="header__icon" class="header__icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!-- ------ -->
+
+        <!-- Slider -->
+        <div class="slider__commont">
+            <img src="/images/products_room.png" alt="">
+
+            <div id="products__img" class="slider__commont-items">
+                <h2 class="slider__commont-name">Standart Doible Room</h2>
+            </div>
+        </div>
+        <!-- ------ -->
+
+        <div class="content__products">
+            <div class="products__check-room">
+                <div class="products__check-left">
+                    <img id="img" src="/images/room_1.jpg" alt="">
+
+                    <div id="gallert__place-items" class="gallert__place-items">
+                        <button><i  onclick="Imagechame()" class="fas fa-angle-left"></i></button>
+                        <button><i  onclick="Imagechame()" class="fas fa-angle-right"></i></button>
+                    </div>
+
+                    <div class="products__left-icon">
+                        <i class="fas fa-fan"></i>
+                        <i class="fas fa-tv"></i>
+                        <i class="fas fa-concierge-bell"></i>
+                        <i class="fas fa-shoe-prints"></i>
+                        <i class="fas fa-wifi"></i>
+                        <i class="fas fa-dumbbell"></i>
+                        <i class="fas fa-key"></i>
+                        <i class="fas fa-utensils"></i>
+                    </div>
+
+                    <p class="products__left-about">This comfortable, modern hotel is set in the urban center of Pontevedra, 10 minutes’ walk from the historic quarter. It offers a terrace and chic, air-conditioned rooms with free Wi-Fi.<br>
+                        Accommodations at Hotel Room features contemporary design and central heating. All rooms include a 26-inch plasma satellite TV, a work desk and a private bathroom with hairdryer.<br>
+                        Breakfast is served daily and the hotel’s restaurant offers a varied, modern menu from Monday to Saturday. Several bars, restaurants and shops are within 5 minutes’ walk.
+                    </p>
+
+                    <ul class="products__left-place">
+                        <h2>ROOM DETAILS</h2>
+                        <li>Guests<span>3</span></li>
+                        <li>Children<span>2</span></li>
+                        <li>Room Size<span>110 m2</span></li>
+                        <li>Room Type<span>Deluxe, Standart</span></li>
+                    </ul>
+                </div>
+
+                <div class="products__check-righ">
+                    <div class="products__righ-date">
+                        <from class="products__right-input">
+                            <select id="products__date-items" name="country">
+                                <option value="Guests">Guests</option>
+                                
+                            </select>
+                        </from>
+                        <div class="products__right-money">
+                            $0.00 / PER NIGHT
+                        </div>
+
+                        <button class="products__righ-btn">CHECK AVAILABILITY <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content__ralated">
+            <div id="products__check-room" class="products__check-room">
+                <h2 class="content__ralated-name">Related room</h2>
+
+                <div class="ralated__room">
+                    <div class="gallery__place-list">
+                        <img src="/images/room_1.jpg" alt="">
+                        <div class="gallery__place-items">
+                            <h2 class="gallery__place-name">Standart Doible Room</h2>
+                            <p class="gallery__place-user">
+                                <i class="fas fa-users"></i>
+                                3 adult(s)
+                            </p>
+                            <p class="gallery__place-about">Furnished in classic and essential style, these comfortable rooms have balconies facing...</p>
+                            
+                            <a href="/Asses/Products__Room/Room__items.html"> <button class="gallery__place-btn">Book now from $50.00</button></a>
+                        </div>
+                    </div>
+                    <div class="gallery__place-list">
+                        <img src="/images/room_1.jpg" alt="">
+                        <div class="gallery__place-items">
+                            <h2 class="gallery__place-name">Standart Doible Room</h2>
+                            <p class="gallery__place-user">
+                                <i class="fas fa-users"></i>
+                                3 adult(s)
+                            </p>
+                            <p class="gallery__place-about">Furnished in classic and essential style, these comfortable rooms have balconies facing...</p>
+                            
+                            <a href="/Asses/Products__Room/Room__items.html"> <button class="gallery__place-btn">Book now from $50.00</button></a>
+                        </div>
+                    </div>
+                    <div class="gallery__place-list">
+                        <img src="/images/room_1.jpg" alt="">
+                        <div class="gallery__place-items">
+                            <h2 class="gallery__place-name">Standart Doible Room</h2>
+                            <p class="gallery__place-user">
+                                <i class="fas fa-users"></i>
+                                3 adult(s)
+                            </p>
+                            <p class="gallery__place-about">Furnished in classic and essential style, these comfortable rooms have balconies facing...</p>
+                            
+                            <a href="/Asses/Products__Room/Room__items.html"> <button class="gallery__place-btn">Book now from $50.00</button></a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------- -->
+        <div class="footer">
+            <div class="footer__items">
+                <div class="footer__left">
+                    <h3 >T & H Travel</h3>
+                    <div class="footer__left-link">
+                        <a href="https://www.facebook.com/T-H-Sneaker-100340922436782/?ref=pages_you_manage">Facebook</a>
+                        <a href="">YouTube</a>
+                        <a href="">Telegram</a>
+                        <a href="">Twitter</a>
+                    </div>
+                    <p class="footer__left-com">Company Name © 2015</p>
+                </div>
+                
+                <div class="footer__center">
+                    <p><i class="fas fa-map-marker-alt"></i>125/25 Nguyen Van Thuong, Phuong 25, Q.Binh Thanh</p>
+                    <p><i class="fas fa-phone-alt"></i><a href="tel:0979523576">Phone: 0979523576</a></p>
+                    <p><i class="fas fa-envelope"></i><a href="mailto: anhtuan28023008@gmail.com">Email: anhtuan28023008@gmail.com</a></p>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer-about">
+                        <p class="">Travel About</p>
+                        <span>Lorem ipsum dolor sit amet, consectateur adispicing elit.<br> Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</span>
+                    </div>
+
+                    <div class="footer__right-icon">
+                        <a href="https://www.facebook.com/T-H-Sneaker-100340922436782/?ref=pages_you_manage"><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-invision"></i></a>
+                        <a href=""><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Asses/Js/product.js"></script>
+    <script src="/Asses/Js/main.js"></script>
+</body>
+</html>

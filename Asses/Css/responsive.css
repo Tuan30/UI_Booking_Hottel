@@ -1,0 +1,439 @@
+/* -------------------------- IPAD PRO */
+@media (min-width: 1024px) and (max-width: 1366px){
+    .slider__content{
+        bottom: 65px;
+    }
+
+    .header__nav li a {
+        margin-right: 25px;
+    }
+
+    .content__rooms-suits{
+        display: inherit;
+    }
+
+    .content__room-items img{
+        margin-left: 189px;
+    }
+    
+    .content__room-left{
+        width: 100%;
+    }
+
+    .content__news-items{
+        width: 50%;
+    }
+
+    .content_about-content{
+        padding: 60px;
+    }
+
+    .about__content-name{
+        font-size: 40px;
+    }
+
+    .about__content-subname{
+        font-size: 16px;
+    }
+
+    .gallery__place-list img{
+        max-height: 170px;
+    }
+}
+/* ----------------------------------- */
+
+/* -------------------------------------------Ipad */
+@media (min-width: 768px) and (max-width: 1023px){
+    .header__booking{
+        display: none;
+    }
+
+    .header__nav li{
+        display: block;
+        padding-left: 24px;
+    }
+
+    .header{
+        overflow: hidden;
+        display: inherit;
+    }
+
+    .header__icon{
+        display: block;
+    }
+
+    .header__logo{
+        margin-left: 18px;
+        display: inline-block;
+    }
+
+    .slider__content{
+        bottom: 0px;
+    }
+
+    .slider__content-name{
+        font-size: 48px;
+    }
+
+    .skider__content-subname{
+        font-size: 20px;
+    }
+
+    .content__rooms-suits{
+        display: inherit;
+    }
+
+    .content__room-left{
+        width: 100%;
+    }
+
+    .slider__bnt-items{
+        display: none;
+    }
+
+    .content__news-items{
+        width: 50%;
+    }
+
+    .content__news-down{
+        display: inherit;
+        padding-left: 64px;
+    }
+
+    .content__down-items{
+        margin-top: 26px;
+    }
+
+    .content__down-righ{
+        width: 100%;
+    }
+
+    .gallery__place-list img{
+        max-height: 125px;
+    }
+
+    .gallery__place-about{
+        display: none;
+    }
+}
+/* ----------------------------------------------- */
+
+/* ---------------------------------------- Iphone */
+@media (max-width: 767px){
+    .header{
+        display: inherit;
+        overflow: hidden;
+    }
+
+    .header__logo{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    .header__nav li{
+        display: block;
+        line-height: 48px;
+        padding-left: 38px;
+    }
+
+    .slider img{
+        height: 50vh;
+    }
+
+    .slider__content{
+        bottom: 0;
+        position: inherit;
+    }
+
+    .header__booking{
+        display: none;
+    }
+
+    .skider__content-subname,
+    .slider__content-name{
+        display: none;
+    }
+
+    .slider__content{
+        margin-top: 64px;
+    }
+
+    .slider__bnt-items .slider__content-btn{
+        margin-top: 18px;
+    }
+
+    .header__icon{
+        display: block;
+    }
+
+    .content__rooms-suits{
+        display: inherit;
+    }
+
+    .content__room-left{
+        width: 100%;
+    }
+
+    .content__room-items img{
+        width: 250px;
+    }
+
+    .content__room-items p{
+        font-size: 25px;
+    }
+
+    .content__news-items{
+        width: 50%;
+    }
+
+    .content__component-name,
+    .content__news-component i{
+        font-size: 20px;
+    }
+
+    .content__news-down{
+        display: inherit;
+    }
+    
+    .content__news-down{
+        padding: 22px ;
+        font-size: 14px;
+    }
+
+    .content__down-righ{
+        width: 100%;
+    }
+
+    .content__down-items{
+        margin-top: 14px;
+    }
+
+    .gallery__place-list{
+        width: 100%;
+    }
+
+    #content__gallery-room-img{
+        width: 300px;
+    }
+
+    .content_about-content{
+        display: none;
+    }
+
+    .footer__items{
+        display: initial;
+        text-align: center;
+        padding: 0 20px ;
+    }
+
+    .footer__left h3{
+        display: initial;
+    }
+
+    .products__check-room{
+        display: inherit;
+    }
+
+    .products__check-left,
+    .products__check-room{
+        width: 100%;
+    }
+
+    .slider__commont-name{
+        margin-bottom: 10px;
+        font-size: 28px;
+        padding-left: 12%;
+    }
+
+    .products__check-left #img{
+        max-height: 210px;
+    }
+
+    .content__products{
+        padding: 0 18px;
+    }
+
+    .products__left-icon{
+        padding: 10px 36px;
+    }
+
+    .products__check-righ{        
+        margin-left: 0;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .ralated__room{
+        padding: 0 18px;
+    }
+
+    .gallery__place-btn{
+        width: 100%;
+    }
+
+    .content__gallary-room{
+        width: 100%;
+    }
+
+    .gallary__room-click li{
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 20px;
+    }
+
+    .room__img-list{
+        width: 50%;
+    } 
+    /* About */
+    .content__product-about-items{
+        width: 100%;
+    }
+
+    .content__product-contact{
+        display: inherit;
+    }
+
+    .content__about-left{
+        width: 100%;
+        padding-top: 0;
+        font-size: 18px;
+    }
+
+    .content__about-right{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+    .room__img-list{
+        width: 100%;
+    }
+
+    .content__about-back img{
+        height: 50vh;
+    }
+
+    .content__about-back h2{
+        font-size: 40px;
+        margin-top: 20%;
+    }
+
+    .slider__commont img{
+        height: 30vh;
+    }
+
+
+    /* Check Rates */
+    .rates__booking{
+        display: initial;
+    }
+
+    .rates__booking-left{
+        width: 100%;
+    }
+
+    .rates__booking-headear{
+        display: inherit;
+    }
+
+    .rates__booking-righ{
+        width: 100%;
+    }
+
+    .rates__booking-headear p{
+        display: none;
+    }
+
+    .rates__booking-date input{
+        width: 275px;
+        margin-left: 25px;
+    }
+
+    .rates__booking-room h2{
+        width: 100%;
+    }
+
+    .rates__booking-btn{
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    .rates__booking-btn button{
+        width: 100%;
+    }
+    
+    .rates__booking-headear{
+        height: 145px;
+    }
+
+    .rates__room-from{
+        width: 100%;
+        padding: 0;
+    }
+
+    .rates__room{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rates__room{
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-bottom: 46px;
+    }
+
+    .rates__room-money{
+        margin-left: 94px;
+        bottom: 160px;
+    }
+
+    /* ------- */
+
+    .content__contact-item{
+        display: inherit;
+    }
+
+    .content__contact-input input{
+        width: 100%;
+    }
+
+    .content__contact-item{
+        width: 100%;
+    }
+
+    .content__contact-left{
+        padding: 0;
+    }
+
+    .content__contact-left{
+        width: 100%;
+    }
+
+    .content__contact-name{
+        margin-bottom: 15px;
+    }
+
+    .content__contact-mess{
+        margin-top: 15px;
+    }
+
+    .content__contact{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .content__contact-send{
+        width: 100%;
+    }
+
+    .content__contact-righ img{
+        width:  362px;
+        margin-top: 64px;
+    }
+
+    .content__contact-botton{
+        bottom: -482px;
+    }
+}
+/* ----------------------------------------------- */
+
